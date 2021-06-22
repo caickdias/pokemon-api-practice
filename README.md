@@ -2,7 +2,7 @@
 
 This project is a very simple app and has no functionality for actually playing anything yet. The main goal of this was to learn and practice API fetching, promises, states and some calculations for position of components.
 
-I don't have plans of finishing it as a playable game. Also, there are some known visual bugs like cards not placing on top of each other correctly when played, but they were not supposed to. I'll move on to my next project as this one was already nice enought for what it was meant.
+I don't have plans of finishing it as a playable game. Also, there are some known visual bugs like cards not placing on top of each other correctly when played, but I'm not changing it now. I'll move on to my next project as this one was already nice enought for what it was meant.
 
 Some ideas I have for features:
 - 3 turns where sum of attacks will win the round (pretty much like gwent)
