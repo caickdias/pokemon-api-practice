@@ -1,5 +1,7 @@
 # Pokemon API card with React Native and Expo
 
+This was my second project and I've changed a lot of how I write code, components and organise directories.
+
 This project is a very simple app and has no functionality for actually playing anything yet. The main goal of this was to learn and practice API fetching, promises, states and some calculations for positioning the components.
 
 I don't have any plans of finishing it as a playable game. Also, there are some known visual bugs like cards not placing on top of each other correctly when played, but I'm not changing it soon. I'll move on to my next project as this one was already nice enough for what it was meant.
