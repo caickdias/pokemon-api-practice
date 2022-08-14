@@ -1,24 +1,58 @@
-# Pokemon API card with React Native and Expo
+<img src="https://github.com/caickdias/pokemon-api-practice/blob/main/examples/25fps-10sec.gif" width="20%" height="20%"/>
 
-This was my second project and I've changed a lot of how I write code, components and organise directories.
+# Pokemon-api with React Native and Expo
 
-This project is a very simple app and has no functionality for actually playing anything yet. The main goal of this was to learn and practice API fetching, promises, states and some calculations for positioning the components.
+A simple app developed as a study for consuming API. It seems like a game, but I wouldn't call it a game.
 
-I don't have any plans of finishing it as a playable game. Also, there are some known visual bugs like cards not placing on top of each other correctly when played, but I'm not changing it soon. I'll move on to my next project as this one was already nice enough for what it was meant.
+# Getting started
 
-Some ideas I have for features:
-- 3 turns where sum of attacks will win the round (pretty much like gwent)
-- You can play cards until you or the opp pass (pretty much like gwent)
-- Special effects for pokemons (e.g: chansey has low attack, but it could add 25% atk to allies; Mewtwo could burn 1 random opp card)
-- Sinergies for element types (something like auto chess, eg: 3 psychic could force pass)
-- Something around pokemons evolutions
+## Dependencies
 
-Well, those are just some ideas anyway, but I shouldn't lose focus so I'm moving on.
+```
+Windows 10
+Expo version 6.0.2 (SDK 46)
+Expo Go (phone app) version 2.25.1.1015582    
+```
 
-P.s: this app was only tested on an physical iPhone 8 and has some workarounds for it.
+## Installing
 
-Suggestions and advices are always welcomed!
+Once you have everything installed and running, let's clone this repository and open its folder. No change to any files should be required.
 
+```
+git clone https://github.com/caickdias/memory-game.git
+cd memory-game
+```
+Then run npm install to install dependencies
 
-<img src="https://github.com/caickdias/pokemon-api-practice/blob/main/examples/25fps-10sec.gif" width="40%" height="40%"/>
+```
+npm install
+```
 
+## Executing program
+
+Simply start the server using the command below and then scan the QRCode showed in the console or find the server in the app to start the program.
+
+```
+npx expo start
+```
+
+## Help
+
+There is currently a bug where bottom cards won't be played in the middle of the board.
+
+You should be fine using 'expo start' to start the server
+
+```
+expo start
+```
+
+but it's recommended to use local CLI instead (recommended in SDK 46 or higher) with the command starting with 'npx'.
+
+## Built with
+
+[Expo](https://expo.dev/): Expo is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
+[React Native](https://reactnative.dev/): React Native is an open-source JavaScript framework, designed for building apps on multiple platforms like iOS, Android, and also web applications, utilizing the very same code base. 
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
