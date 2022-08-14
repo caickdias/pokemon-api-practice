@@ -19,8 +19,8 @@ Expo Go (phone app) version 2.25.1.1015582
 Once you have everything installed and running, let's clone this repository and open its folder. No change to any files should be required.
 
 ```
-git clone https://github.com/caickdias/memory-game.git
-cd memory-game
+git clone https://github.com/caickdias/pokemon-api-practice
+cd pokemon-api-practice
 ```
 Then run npm install to install dependencies
 
